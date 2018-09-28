@@ -6,17 +6,21 @@
     "type": "library",
     "homepage": "http://www.e-solutions.tm.fr/",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "cdelamarre",
-            "email": "cdelamarre@e-solutions.tm.fr",
-            "homepage": "http://www.e-solutions.tm.fr/",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "cdelamarre",
+        "email": "cdelamarre@e-solutions.tm.fr",
+        "homepage": "http://www.e-solutions.tm.fr/",
+        "role": "Developer"
+    }],
     "require": {
         "php": ">=5.5.0",
         "psr/link": "~1.0@dev"
+    },
+    "env": {
+        "esol_db_host": "127.0.0.1",
+        "esol_db_name": "dbname",
+        "esol_db_login": "login",
+        "esol_db_password": "passwd"
     },
     "autoload": {
         "psr-4": {
