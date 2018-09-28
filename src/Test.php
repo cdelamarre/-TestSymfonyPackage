@@ -1,5 +1,5 @@
 <?php
-namespace App\Test;
+namespace App\Test\src;
 class Test{
     function __construct()
     {

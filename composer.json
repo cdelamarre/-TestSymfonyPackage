@@ -1,0 +1,23 @@
+{
+    "name": "esol/test",
+    "description": "test d'inclusion de package",
+    "keywords": ["esol", "test"],
+    "type": "library",
+    "homepage": "http://www.e-solutions.tm.fr/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cdelamarre",
+            "email": "cdelamarre@e-solutions.tm.fr",
+            "homepage": "http://www.e-solutions.tm.fr/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Test": "src"
+        }
+    }
+}
