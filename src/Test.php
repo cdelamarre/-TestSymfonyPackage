@@ -7,7 +7,11 @@ class Test{
     }
 
     function printTest(){
-        print "test";
+        print "printTest";
+    }
+
+    function printTest2(){
+        print "printTest2";
     }
 
 
