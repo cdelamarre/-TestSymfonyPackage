@@ -14,5 +14,9 @@ class Test{
         print "printTest2";
     }
 
+    function printTest3(){
+        print "printTest3";
+    }
+
 
 }
