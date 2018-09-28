@@ -1,5 +1,5 @@
 <?php
-namespace App\Test\src;
+namespace Esol\Test;
 class Test{
     function __construct()
     {
