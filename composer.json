@@ -19,7 +19,7 @@
         "psr/link": "~1.0@dev"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Test": "src"
         }
     }
