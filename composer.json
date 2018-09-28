@@ -1,6 +1,7 @@
 {
     "name": "esol/test",
     "description": "test d'inclusion de package",
+    "minimum-stability": "dev",
     "keywords": ["esol", "test"],
     "type": "library",
     "homepage": "http://www.e-solutions.tm.fr/",
@@ -14,6 +15,8 @@
         }
     ],
     "require": {
+        "php": ">=5.5.0",
+        "psr/link": "~1.0@dev"
     },
     "autoload": {
         "psr-0": {
